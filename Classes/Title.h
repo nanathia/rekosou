@@ -15,6 +15,7 @@ USING_NS_CC;
 class Title: public Scene{
     
 public:
+//    ~Title();
     bool init() override;
     void update(float deltaTime) override;
 //    bool onTouchBegan(Touch *pTouch, Event *pEvent) override;

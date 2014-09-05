@@ -18,6 +18,7 @@ class TitleStart: public Layer{
     TextureManager* m_tex;
     const Rect m_rect;
 public:
+    TitleStart();
     ~TitleStart();
     bool init() override;
     void update(float deltaTime) override;

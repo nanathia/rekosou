@@ -25,6 +25,8 @@
 		04B059CA19B9138000EC87B1 /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B059C819B9138000EC87B1 /* TextureManager.cpp */; };
 		04B059FD19B999AA00EC87B1 /* TitleStart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B059FB19B999AA00EC87B1 /* TitleStart.cpp */; };
 		04B05A0019B999B400EC87B1 /* TitleEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B059FE19B999B400EC87B1 /* TitleEnd.cpp */; };
+		04B05A8219BA25E300EC87B1 /* Rec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B05A8019BA25E300EC87B1 /* Rec.cpp */; };
+		04B05A8719BA25EB00EC87B1 /* Play.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B05A8519BA25EB00EC87B1 /* Play.cpp */; };
 		1AC6FB1F180E996B004C840B /* libbox2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFF180E9839004C840B /* libbox2d Mac.a */; };
 		1AC6FB20180E996B004C840B /* libchipmunk Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFD180E9839004C840B /* libchipmunk Mac.a */; };
 		1AC6FB21180E996B004C840B /* libcocos2dx Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2dx Mac.a */; };
@@ -259,6 +261,10 @@
 		04B059FC19B999AA00EC87B1 /* TitleStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleStart.h; path = ../Classes/TitleStart.h; sourceTree = "<group>"; };
 		04B059FE19B999B400EC87B1 /* TitleEnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TitleEnd.cpp; path = ../Classes/TitleEnd.cpp; sourceTree = "<group>"; };
 		04B059FF19B999B400EC87B1 /* TitleEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleEnd.h; path = ../Classes/TitleEnd.h; sourceTree = "<group>"; };
+		04B05A8019BA25E300EC87B1 /* Rec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rec.cpp; path = ../Classes/Rec.cpp; sourceTree = "<group>"; };
+		04B05A8119BA25E300EC87B1 /* Rec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rec.h; path = ../Classes/Rec.h; sourceTree = "<group>"; };
+		04B05A8519BA25EB00EC87B1 /* Play.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Play.cpp; path = ../Classes/Play.cpp; sourceTree = "<group>"; };
+		04B05A8619BA25EB00EC87B1 /* Play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Play.h; path = ../Classes/Play.h; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
@@ -389,6 +395,8 @@
 		04A498EB19B8D9F100749AFF /* rec */ = {
 			isa = PBXGroup;
 			children = (
+				04B05A8019BA25E300EC87B1 /* Rec.cpp */,
+				04B05A8119BA25E300EC87B1 /* Rec.h */,
 			);
 			name = rec;
 			sourceTree = "<group>";
@@ -396,6 +404,8 @@
 		04A498EC19B8D9F600749AFF /* play */ = {
 			isa = PBXGroup;
 			children = (
+				04B05A8519BA25EB00EC87B1 /* Play.cpp */,
+				04B05A8619BA25EB00EC87B1 /* Play.h */,
 			);
 			name = play;
 			sourceTree = "<group>";
@@ -811,9 +821,11 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				04B059A519B8F7A700EC87B1 /* Title.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
+				04B05A8719BA25EB00EC87B1 /* Play.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				04A498F019B8E28200749AFF /* GameMain.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
+				04B05A8219BA25E300EC87B1 /* Rec.cpp in Sources */,
 				04B059CA19B9138000EC87B1 /* TextureManager.cpp in Sources */,
 				04B059FD19B999AA00EC87B1 /* TitleStart.cpp in Sources */,
 			);

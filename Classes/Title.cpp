@@ -8,11 +8,15 @@
 
 #include "Title.h"
 #include "TitleBGI.h"
+#include "TitleStart.h"
 
 bool Title::init(){
     TitleBGI* bgi = new TitleBGI;
+    TitleStart* start = new TitleStart;
     bgi->init();
+    start->init();
     this->addChild(bgi);
+    this->addChild(start);
     this->scheduleUpdate();
 //    auto listener = EventListenerTouchOneByOne::create();
 //    listener->onTouchBegan = CC_CALLBACK_2(Layer::onTouchBegan, this);
